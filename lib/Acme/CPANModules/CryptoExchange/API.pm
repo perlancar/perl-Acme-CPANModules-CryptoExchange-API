@@ -32,6 +32,12 @@ our $LIST = {
         },
         {
             module => 'Finance::GDAX::API',
+            summary => 'Last time I tried, not working',
+            alternatives => ['Finance::GDAX::Lite'],
+        },
+        {
+            module => 'Finance::GDAX::Lite',
+            summary => 'An alternative which I wrote because Finance::GDAX::API was not working',
         },
         {
             module => 'Finance::LocalBitcoins::API',
