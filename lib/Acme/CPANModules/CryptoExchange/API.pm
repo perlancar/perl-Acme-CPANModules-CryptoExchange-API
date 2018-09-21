@@ -13,7 +13,7 @@ our $LIST = {
             module => 'WebService::Binance',
         },
         {
-            module => 'Finance::BTCIndo',
+            module => 'Finance::Indodax',
         },
         {
             module => 'Finance::BitFlip',
