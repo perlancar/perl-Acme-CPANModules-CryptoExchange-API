@@ -33,7 +33,7 @@ our $LIST = {
         {
             module => 'Finance::GDAX::API',
             summary => 'Last time I tried, not working',
-            alternatives => ['Finance::GDAX::Lite'],
+            alternate_modules => ['Finance::GDAX::Lite'],
         },
         {
             module => 'Finance::GDAX::Lite',
